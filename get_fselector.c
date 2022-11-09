@@ -35,6 +35,6 @@ int get_print(const char *format, type_t type[], va_list vaptr)
 			count += _putchar('%');
 			count += _putchar(format[i]);
 		}
-        }
+	}
 	return (count);
 }
