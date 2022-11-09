@@ -30,7 +30,7 @@ int print_char(va_list vaptr)
  * Return: i
  */
 
-int print_string(va_list vaptr)
+int print_str(va_list vaptr)
 {
 	int i = 0;
 	char *s;

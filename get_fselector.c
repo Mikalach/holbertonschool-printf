@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *get_print - returns count
+ *_printf - returns count
  *@format: a character string
  *@type: specifiers being checked against
  *@vaptr: va pointer
@@ -35,6 +35,6 @@ int get_print(const char *format, type_t type[], va_list vaptr)
 			count += _putchar('%');
 			count += _putchar(format[i]);
 		}
-	}
+        }
 	return (count);
 }
