@@ -10,12 +10,13 @@ typedef struct fselect
 {
 	char *d;
 	int (*f)(va_list vaptr);
-} fselect;
+} type_t;
 
-int char_print(va_list vaptr);
-int string_print(va_list vaptr);
+int print_char(va_list vaptr);
+int print_str(va_list vaptr);
 int _putchar(char c);
-int int_print(va_list vaptr);
-int per_print(va_list vaptr);
+int print_int(va_list vaptr);
+int print_per(va_list vaptr);
 int _printf(const char *format, ...);
+int get_print(const char *format, type_t type[], va_list vaptr);
 #endif
