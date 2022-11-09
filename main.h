@@ -5,6 +5,8 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <stdarg.h>
+#include <string.h>
+#include <limits.h>
 
 typedef struct fselect
 {
