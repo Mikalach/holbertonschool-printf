@@ -1,4 +1,4 @@
-#include "header.h"
+#include "main.h"
 
 /**
  * _printf - function that is a printf clone
