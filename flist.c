@@ -25,7 +25,7 @@ int print_char(va_list vaptr)
 }
 
 /**
- * print_string - function that prints a string
+ * print_str - function that prints a string
  * @vaptr: the string to print
  * Return: i
  */
@@ -54,7 +54,7 @@ int print_per(va_list vaptr __attribute__((unused)))
 	return (1);
 }
 /**
- * _print_int - prints an integer
+ * print_int - prints an integer
  * @vaptr: vaptr pointer
  * Return: number of numcharacter
  */
