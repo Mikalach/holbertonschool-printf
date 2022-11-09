@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_printf - returns count
+ *get_print - returns count
  *@format: a character string
  *@type: specifiers being checked against
  *@vaptr: va pointer
